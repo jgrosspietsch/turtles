@@ -1,0 +1,27 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shell -->
+  <ellipse cx="100" cy="75" rx="70" ry="50" fill="#8FBC8F" stroke="#556B2F" stroke-width="2"/>
+  <!-- Shell Pattern (simple hexagons) -->
+  <polygon points="100,35 80,45 80,65 100,75 120,65 120,45" fill="#6B8E23" stroke="#556B2F" stroke-width="1"/>
+  <polygon points="70,60 60,75 70,90 90,90 100,75 90,60" fill="#6B8E23" stroke="#556B2F" stroke-width="1"/>
+  <polygon points="130,60 110,60 100,75 110,90 130,90 140,75" fill="#6B8E23" stroke="#556B2F" stroke-width="1"/>
+  <polygon points="100,115 80,105 80,85 100,75 120,85 120,105" fill="#6B8E23" stroke="#556B2F" stroke-width="1"/>
+
+  <!-- Head -->
+  <circle cx="160" cy="75" r="20" fill="#90EE90" stroke="#556B2F" stroke-width="2"/>
+  <!-- Eye -->
+  <circle cx="165" cy="70" r="3" fill="#000000"/>
+
+  <!-- Legs -->
+  <!-- Front-left leg -->
+  <ellipse cx="60" cy="55" rx="20" ry="10" fill="#90EE90" stroke="#556B2F" stroke-width="2" transform="rotate(-30 60 55)"/>
+  <!-- Rear-left leg -->
+  <ellipse cx="60" cy="95" rx="20" ry="10" fill="#90EE90" stroke="#556B2F" stroke-width="2" transform="rotate(30 60 95)"/>
+  <!-- Front-right leg (partially hidden) -->
+  <ellipse cx="135" cy="45" rx="18" ry="9" fill="#90EE90" stroke="#556B2F" stroke-width="2" transform="rotate(30 135 45)"/>
+  <!-- Rear-right leg -->
+  <ellipse cx="135" cy="105" rx="20" ry="10" fill="#90EE90" stroke="#556B2F" stroke-width="2" transform="rotate(-30 135 105)"/>
+
+  <!-- Tail -->
+  <polygon points="30,75 45,70 45,80" fill="#90EE90" stroke="#556B2F" stroke-width="2"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Turtle shell (main body) -->
+  <ellipse cx="150" cy="100" rx="80" ry="50" fill="#4a7c59" stroke="#2d4a35" stroke-width="2"/>
+
+  <!-- Shell pattern -->
+  <ellipse cx="150" cy="85" rx="25" ry="15" fill="#5a8c69" stroke="#2d4a35" stroke-width="1"/>
+  <ellipse cx="125" cy="105" rx="20" ry="12" fill="#5a8c69" stroke="#2d4a35" stroke-width="1"/>
+  <ellipse cx="175" cy="105" rx="20" ry="12" fill="#5a8c69" stroke="#2d4a35" stroke-width="1"/>
+  <ellipse cx="150" cy="120" rx="18" ry="10" fill="#5a8c69" stroke="#2d4a35" stroke-width="1"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="45" rx="18" ry="15" fill="#6b8e5a" stroke="#2d4a35" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="145" cy="42" r="3" fill="#000"/>
+  <circle cx="155" cy="42" r="3" fill="#000"/>
+  <circle cx="146" cy="41" r="1" fill="#fff"/>
+  <circle cx="156" cy="41" r="1" fill="#fff"/>
+
+  <!-- Front legs -->
+  <ellipse cx="100" cy="80" rx="12" ry="8" fill="#6b8e5a" stroke="#2d4a35" stroke-width="2"/>
+  <ellipse cx="200" cy="80" rx="12" ry="8" fill="#6b8e5a" stroke="#2d4a35" stroke-width="2"/>
+
+  <!-- Back legs -->
+  <ellipse cx="110" cy="130" rx="12" ry="8" fill="#6b8e5a" stroke="#2d4a35" stroke-width="2"/>
+  <ellipse cx="190" cy="130" rx="12" ry="8" fill="#6b8e5a" stroke="#2d4a35" stroke-width="2"/>
+
+  <!-- Tail -->
+  <ellipse cx="150" cy="155" rx="8" ry="5" fill="#6b8e5a" stroke="#2d4a35" stroke-width="2"/>
+
+  <!-- Nostril dots -->
+  <circle cx="148" cy="38" r="0.5" fill="#2d4a35"/>
+  <circle cx="152" cy="38" r="0.5" fill="#2d4a35"/>
+</svg>

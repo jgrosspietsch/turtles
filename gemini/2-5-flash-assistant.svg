@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shell -->
+  <ellipse cx="100" cy="100" rx="70" ry="50" fill="#8B4513"/>
+  <ellipse cx="100" cy="100" rx="65" ry="45" fill="#A0522D"/>
+
+  <!-- Head -->
+  <circle cx="170" cy="100" r="20" fill="#32CD32"/>
+  <circle cx="175" cy="95" r="3" fill="black"/>
+  <circle cx="175" cy="105" r="3" fill="black"/>
+
+  <!-- Legs -->
+  <rect x="30" y="80" width="20" height="40" rx="5" ry="5" fill="#32CD32" transform="rotate(-15 40 100)"/>
+  <rect x="30" y="80" width="20" height="40" rx="5" ry="5" fill="#32CD32" transform="rotate(15 40 100)"/>
+  <rect x="150" y="80" width="20" height="40" rx="5" ry="5" fill="#32CD32" transform="rotate(-15 160 100)"/>
+  <rect x="150" y="80" width="20" height="40" rx="5" ry="5" fill="#32CD32" transform="rotate(15 160 100)"/>
+
+  <!-- Tail -->
+  <polygon points="30,100 20,95 20,105" fill="#32CD32"/>
+</svg>

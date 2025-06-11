@@ -1,0 +1,20 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Turtle shell -->
+  <circle cx="200" cy="200" r="100" fill="#7A7D7F" />
+
+  <!-- Turtle head -->
+  <circle cx="170" cy="150" r="20" fill="#7A7D7F" />
+
+  <!-- Turtle eyes -->
+  <circle cx="165" cy="140" r="5" fill="#000" />
+  <circle cx="175" cy="140" r="5" fill="#000" />
+
+  <!-- Turtle legs -->
+  <line x1="200" y1="250" x2="150" y2="300" stroke="#7A7D7F" stroke-width="10" />
+  <line x1="200" y1="250" x2="250" y2="300" stroke="#7A7D7F" stroke-width="10" />
+  <line x1="200" y1="280" x2="120" y2="320" stroke="#7A7D7F" stroke-width="10" />
+  <line x1="200" y1="280" x2="280" y2="320" stroke="#7A7D7F" stroke-width="10" />
+
+  <!-- Turtle mouth -->
+  <path d="M 165,160 Q 170,165 175,160" stroke="#000" stroke-width="2" fill="none" />
+</svg>

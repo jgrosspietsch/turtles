@@ -1,0 +1,59 @@
+<svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Turtle shell -->
+  <ellipse cx="150" cy="130" rx="80" ry="60" fill="#4a7c59" stroke="#2d5233" stroke-width="2"/>
+  
+  <!-- Shell pattern -->
+  <ellipse cx="150" cy="110" rx="25" ry="20" fill="#5d8f6a" stroke="#2d5233" stroke-width="1"/>
+  <ellipse cx="125" cy="130" rx="20" ry="15" fill="#5d8f6a" stroke="#2d5233" stroke-width="1"/>
+  <ellipse cx="175" cy="130" rx="20" ry="15" fill="#5d8f6a" stroke="#2d5233" stroke-width="1"/>
+  <ellipse cx="130" cy="150" rx="18" ry="12" fill="#5d8f6a" stroke="#2d5233" stroke-width="1"/>
+  <ellipse cx="170" cy="150" rx="18" ry="12" fill="#5d8f6a" stroke="#2d5233" stroke-width="1"/>
+  <ellipse cx="150" cy="165" rx="15" ry="10" fill="#5d8f6a" stroke="#2d5233" stroke-width="1"/>
+  
+  <!-- Head -->
+  <ellipse cx="150" cy="60" rx="30" ry="25" fill="#6b9b73" stroke="#2d5233" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="140" cy="55" r="6" fill="white"/>
+  <circle cx="160" cy="55" r="6" fill="white"/>
+  <circle cx="140" cy="55" r="4" fill="black"/>
+  <circle cx="160" cy="55" r="4" fill="black"/>
+  <circle cx="141" cy="53" r="1.5" fill="white"/>
+  <circle cx="161" cy="53" r="1.5" fill="white"/>
+  
+  <!-- Nostrils -->
+  <circle cx="147" cy="65" r="1" fill="#2d5233"/>
+  <circle cx="153" cy="65" r="1" fill="#2d5233"/>
+  
+  <!-- Mouth -->
+  <path d="M 145 70 Q 150 73 155 70" stroke="#2d5233" stroke-width="1.5" fill="none"/>
+  
+  <!-- Front legs -->
+  <ellipse cx="100" cy="120" rx="15" ry="25" fill="#6b9b73" stroke="#2d5233" stroke-width="2"/>
+  <ellipse cx="200" cy="120" rx="15" ry="25" fill="#6b9b73" stroke="#2d5233" stroke-width="2"/>
+  
+  <!-- Back legs -->
+  <ellipse cx="110" cy="170" rx="15" ry="22" fill="#6b9b73" stroke="#2d5233" stroke-width="2"/>
+  <ellipse cx="190" cy="170" rx="15" ry="22" fill="#6b9b73" stroke="#2d5233" stroke-width="2"/>
+  
+  <!-- Tail -->
+  <ellipse cx="150" cy="200" rx="8" ry="12" fill="#6b9b73" stroke="#2d5233" stroke-width="2"/>
+  
+  <!-- Claws on front legs -->
+  <line x1="95" y1="132" x2="92" y2="138" stroke="#2d5233" stroke-width="1"/>
+  <line x1="98" y1="134" x2="95" y2="140" stroke="#2d5233" stroke-width="1"/>
+  <line x1="101" y1="135" x2="98" y2="141" stroke="#2d5233" stroke-width="1"/>
+  
+  <line x1="205" y1="132" x2="208" y2="138" stroke="#2d5233" stroke-width="1"/>
+  <line x1="202" y1="134" x2="205" y2="140" stroke="#2d5233" stroke-width="1"/>
+  <line x1="199" y1="135" x2="202" y2="141" stroke="#2d5233" stroke-width="1"/>
+  
+  <!-- Claws on back legs -->
+  <line x1="105" y1="182" x2="102" y2="188" stroke="#2d5233" stroke-width="1"/>
+  <line x1="108" y1="184" x2="105" y2="190" stroke="#2d5233" stroke-width="1"/>
+  <line x1="111" y1="185" x2="108" y2="191" stroke="#2d5233" stroke-width="1"/>
+  
+  <line x1="195" y1="182" x2="198" y2="188" stroke="#2d5233" stroke-width="1"/>
+  <line x1="192" y1="184" x2="195" y2="190" stroke="#2d5233" stroke-width="1"/>
+  <line x1="189" y1="185" x2="192" y2="191" stroke="#2d5233" stroke-width="1"/>
+</svg>

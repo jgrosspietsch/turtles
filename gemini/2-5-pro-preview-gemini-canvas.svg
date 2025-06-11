@@ -1,0 +1,48 @@
+<svg
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-full h-auto"
+            aria-labelledby="turtleTitle turtleDesc">
+            <title id="turtleTitle">A friendly cartoon turtle</title>
+            <desc id="turtleDesc">An SVG illustration of a turtle with a green head, four flippers, a tail, and a brown shell with a hexagonal pattern.</desc>
+
+            <!-- Group for the entire turtle for easy positioning -->
+            <g transform="translate(10, 20)">
+
+                <!-- Tail -->
+                <polygon points="25,95 10,100 25,105" fill="#6B8E23" />
+
+                <!-- Left Back Flipper -->
+                <ellipse cx="60" cy="140" rx="25" ry="12" fill="#8FBC8F" transform="rotate(-30 60 140)"/>
+
+                <!-- Right Back Flipper -->
+                <ellipse cx="120" cy="140" rx="25" ry="12" fill="#8FBC8F" transform="rotate(30 120 140)"/>
+
+                <!-- Shell -->
+                <ellipse cx="90" cy="90" rx="65" ry="50" fill="#8B4513" stroke="#5a2d0c" stroke-width="2"/>
+
+                <!-- Shell Pattern -->
+                <g fill="none" stroke="#A0522D" stroke-width="1.5">
+                    <polygon points="90,60 70,70 70,90 90,100 110,90 110,70" />
+                    <polygon points="68,71 55,80 55,95 68,102" />
+                    <polygon points="112,71 125,80 125,95 112,102" />
+                    <polygon points="90,58 80,45 90,38 100,45" />
+                </g>
+
+                <!-- Left Front Flipper -->
+                <ellipse cx="50" cy="55" rx="28" ry="15" fill="#8FBC8F" transform="rotate(25 50 55)"/>
+
+                <!-- Right Front Flipper -->
+                <ellipse cx="130" cy="55" rx="28"ry="15" fill="#8FBC8F" transform="rotate(-25 130 55)"/>
+
+                <!-- Head -->
+                <g>
+                    <path d="M 140,80 C 170,80 185,60 180,40 C 175,20 150,15 140,30 Z" fill="#6B8E23" />
+                    <!-- Eye -->
+                    <circle cx="165" cy="45" r="3" fill="black" />
+                    <!-- Smile -->
+                    <path d="M 160,60 Q 165,68 170,60" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" />
+                </g>
+
+            </g>
+        </svg>

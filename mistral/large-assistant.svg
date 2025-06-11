@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Turtle Body -->
+  <ellipse cx="100" cy="100" rx="60" ry="30" fill="green" />
+
+  <!-- Turtle Head -->
+  <circle cx="100" cy="70" r="20" fill="green" />
+
+  <!-- Turtle Legs -->
+  <rect x="70" y="110" width="10" height="40" fill="green" />
+  <rect x="120" y="110" width="10" height="40" fill="green" />
+  <rect x="85" y="130" width="30" height="10" fill="green" />
+
+  <!-- Turtle Tail -->
+  <polygon points="100,130 120,140 100,150" fill="green" />
+
+  <!-- Turtle Eyes -->
+  <circle cx="95" cy="65" r="3" fill="white" />
+  <circle cx="105" cy="65" r="3" fill="white" />
+  <circle cx="95" cy="65" r="1.5" fill="black" />
+  <circle cx="105" cy="65" r="1.5" fill="black" />
+</svg>

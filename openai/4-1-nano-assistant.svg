@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Turtle shell -->
+  <circle cx="100" cy="100" r="80" fill="#4CAF50" stroke="#388E3C" stroke-width="8"/>
+
+  <!-- Turtle head -->
+  <circle cx="100" cy="40" r="20" fill="#81C784" stroke="#388E3C" stroke-width="4"/>
+
+  <!-- Front left leg -->
+  <circle cx="50" cy="130" r="15" fill="#81C784" stroke="#388E3C" stroke-width="3"/>
+
+  <!-- Front right leg -->
+  <circle cx="150" cy="130" r="15" fill="#81C784" stroke="#388E3C" stroke-width="3"/>
+
+  <!-- Back left leg -->
+  <circle cx="70" cy="180" r="12" fill="#81C784" stroke="#388E3C" stroke-width="3"/>
+
+  <!-- Back right leg -->
+  <circle cx="130" cy="180" r="12" fill="#81C784" stroke="#388E3C" stroke-width="3"/>
+
+  <!-- Tail -->
+  <polygon points="100,180 90,190 110,190" fill="#81C784" stroke="#388E3C" stroke-width="2"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Shell base -->
+  <ellipse cx="100" cy="100" rx="60" ry="50" fill="#4CAF50"/>
+  <!-- Upper shell -->
+  <ellipse cx="100" cy="80" rx="50" ry="30" fill="#388E3C"/>
+  <!-- Head -->
+  <ellipse cx="150" cy="80" rx="10" ry="15" fill="#81C784"/>
+  <!-- Eye -->
+  <circle cx="155" cy="75" r="2" fill="#000"/>
+  <!-- Front legs -->
+  <rect x="45" y="80" width="10" height="20" fill="#33691E"/>
+  <rect x="145" y="80" width="10" height="20" fill="#33691E"/>
+  <!-- Back legs -->
+  <rect x="55" y="120" width="10" height="20" fill="#33691E"/>
+  <rect x="145" y="120" width="10" height="20" fill="#33691E"/>
+  <!-- Tail -->
+  <line x1="55" y1="130" x2="40" y2="150" stroke="#33691E" stroke-width="4"/>
+</svg>

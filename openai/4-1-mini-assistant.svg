@@ -1,0 +1,17 @@
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-label="Turtle illustration" role="img">
+  <!-- Turtle shell -->
+  <ellipse cx="100" cy="75" rx="70" ry="50" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+  <!-- Shell pattern -->
+  <circle cx="100" cy="75" r="20" fill="#81C784"/>
+  <path d="M100 55 L100 95 M80 75 L120 75 M85 60 L115 90 M115 60 L85 90" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="40" cy="75" r="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+  <circle cx="35" cy="70" r="5" fill="#000"/>
+  <!-- Legs -->
+  <ellipse cx="70" cy="130" rx="20" ry="15" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" transform="rotate(-30 70 130)"/>
+  <ellipse cx="130" cy="130" rx="20" ry="15" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" transform="rotate(30 130 130)"/>
+  <ellipse cx="70" cy="20" rx="20" ry="15" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" transform="rotate(30 70 20)"/>
+  <ellipse cx="130" cy="20" rx="20" ry="15" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" transform="rotate(-30 130 20)"/>
+  <!-- Tail -->
+  <polygon points="170,75 185,70 185,80" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+</svg>

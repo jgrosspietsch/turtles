@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shell -->
+  <ellipse cx="100" cy="50" rx="50" ry="30" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="40" cy="50" rx="15" ry="8" fill="#3CB371"/>
+
+  <!-- Eyes -->
+  <circle cx="35" cy="47" r="2" fill="black"/>
+  <circle cx="35" cy="53" r="2" fill="black"/>
+
+  <!-- Legs -->
+  <ellipse cx="60" cy="30" rx="8" ry="4" fill="#3CB371"/>
+  <ellipse cx="140" cy="30" rx="8" ry="4" fill="#3CB371"/>
+  <ellipse cx="60" cy="70" rx="8" ry="4" fill="#3CB371"/>
+  <ellipse cx="140" cy="70" rx="8" ry="4" fill="#3CB371"/>
+
+  <!-- Tail -->
+  <path d="M150 50 L160 47 L160 53 Z" fill="#3CB371"/>
+</svg>

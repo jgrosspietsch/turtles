@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Legs -->
+  <circle cx="60" cy="140" r="15" fill="#76c043" stroke="#4a7b27" stroke-width="4"/>
+  <circle cx="140" cy="140" r="15" fill="#76c043" stroke="#4a7b27" stroke-width="4"/>
+  <circle cx="60" cy="60"  r="15" fill="#76c043" stroke="#4a7b27" stroke-width="4"/>
+  <circle cx="140" cy="60"  r="15" fill="#76c043" stroke="#4a7b27" stroke-width="4"/>
+  <!-- Shell -->
+  <ellipse cx="100" cy="100" rx="60" ry="40" fill="#76c043" stroke="#4a7b27" stroke-width="4"/>
+  <!-- Shell pattern -->
+  <polygon points="100,60 70,100 100,140 130,100" fill="none" stroke="#4a7b27" stroke-width="3"/>
+  <line x1="100" y1="60" x2="100" y2="140" stroke="#4a7b27" stroke-width="3"/>
+  <line x1="70"  y1="100" x2="130" y2="100" stroke="#4a7b27" stroke-width="3"/>
+  <!-- Head -->
+  <circle cx="40" cy="100" r="20" fill="#76c043" stroke="#4a7b27" stroke-width="4"/>
+  <!-- Eye -->
+  <circle cx="35" cy="90" r="4" fill="#000"/>
+  <!-- Tail -->
+  <polygon points="160,100 180,90 180,110" fill="#76c043" stroke="#4a7b27" stroke-width="4"/>
+</svg>

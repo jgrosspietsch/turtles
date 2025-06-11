@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="300"
+  height="200"
+  viewBox="0 0 300 200"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="3"
+  fill-rule="evenodd">
+
+  <!-- Background (optional, remove if transparency desired) -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- Turtle shell -->
+  <ellipse cx="150" cy="110" rx="80" ry="55" fill="#4c9a2a" stroke="#2e5d16"/>
+  <!-- Shell pattern -->
+  <path d="M70 110h160 M110 60v100 M150 60v100 M190 60v100
+           M90 80h120 M90 140h120"
+        stroke="#2e5d16" fill="none"/>
+
+  <!-- Head -->
+  <circle cx="235" cy="95" r="28" fill="#4c9a2a" stroke="#2e5d16"/>
+  <!-- Eyes -->
+  <circle cx="245" cy="85" r="5" fill="#ffffff"/>
+  <circle cx="245" cy="85" r="2" fill="#000000"/>
+  <circle cx="225" cy="85" r="5" fill="#ffffff"/>
+  <circle cx="225" cy="85" r="2" fill="#000000"/>
+  <!-- Mouth -->
+  <path d="M225 105 q10 10 20 0" stroke="#2e5d16" fill="none"/>
+
+  <!-- Legs -->
+  <circle cx="85" cy="60"  r="20" fill="#4c9a2a" stroke="#2e5d16"/>
+  <circle cx="215" cy="60" r="20" fill="#4c9a2a" stroke="#2e5d16"/>
+  <circle cx="85" cy="160" r="20" fill="#4c9a2a" stroke="#2e5d16"/>
+  <circle cx="215" cy="160" r="20" fill="#4c9a2a" stroke="#2e5d16"/>
+
+  <!-- Tail -->
+  <path d="M70 110 q-25 10 -25 0 q0 -10 25 0" fill="#4c9a2a" stroke="#2e5d16"/>
+
+</svg>

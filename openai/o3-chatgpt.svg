@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="240" height="140"
+     viewBox="0 0 240 140" fill="none"
+     stroke-linecap="round" stroke-linejoin="round"
+     stroke-width="2">
+  <!-- Shell with subtle radial gradient -->
+  <defs>
+    <radialGradient id="shellGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%"  stop-color="#3cb371"/>
+      <stop offset="100%" stop-color="#2e8b57"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Shell outline & plates -->
+  <ellipse cx="120" cy="70" rx="70" ry="45" fill="url(#shellGrad)" stroke="#2e6340"/>
+  <!-- Hexagonal scutes (simplified) -->
+  <path d="M120 35 l22 12 v26 l-22 12 l-22 -12 v-26z" fill="#4caf83" stroke="#2e6340"/>
+  <path d="M98 46 l0 26 l-22 12 l-22 -12 l0 -26 l22 -12z" fill="#49a578" stroke="#2e6340"/>
+  <path d="M142 46 l22 -12 l22 12 l0 26 l-22 12 l-22 -12z" fill="#49a578" stroke="#2e6340"/>
+  <path d="M98 98 l0 -26 l22 -12 l22 12 l0 26 l-22 12z" fill="#469c6f" stroke="#2e6340"/>
+
+  <!-- Head -->
+  <circle cx="55" cy="70" r="20" fill="#3cb371" stroke="#2e6340"/>
+  <circle cx="48" cy="65" r="3" fill="#1f3524"/>
+  <circle cx="62" cy="65" r="3" fill="#1f3524"/>
+  <path d="M50 78 q5 6 10 0" stroke="#1f3524"/>
+
+  <!-- Legs -->
+  <ellipse cx="85"  cy="30" rx="10" ry="16" fill="#3cb371" stroke="#2e6340"/>
+  <ellipse cx="155" cy="30" rx="10" ry="16" fill="#3cb371" stroke="#2e6340"/>
+  <ellipse cx="85"  cy="110" rx="10" ry="16" fill="#3cb371" stroke="#2e6340"/>
+  <ellipse cx="155" cy="110" rx="10" ry="16" fill="#3cb371" stroke="#2e6340"/>
+
+  <!-- Tail -->
+  <path d="M187 70 l15 5 l0 -10 z" fill="#3cb371" stroke="#2e6340"/>
+</svg>

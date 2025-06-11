@@ -1,0 +1,34 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shell -->
+  <ellipse cx="100" cy="75" rx="60" ry="45" fill="#2d5016" stroke="#1a2f0a" stroke-width="2"/>
+
+  <!-- Shell pattern -->
+  <path d="M 70 50 Q 100 40, 130 50 L 125 75 L 100 80 L 75 75 Z" fill="#3d6b1f" stroke="#1a2f0a" stroke-width="1"/>
+  <path d="M 75 75 L 100 80 L 95 105 L 70 100 Z" fill="#3d6b1f" stroke="#1a2f0a" stroke-width="1"/>
+  <path d="M 100 80 L 125 75 L 130 100 L 105 105 Z" fill="#3d6b1f" stroke="#1a2f0a" stroke-width="1"/>
+  <path d="M 70 100 L 95 105 L 90 115 L 65 110 Z" fill="#3d6b1f" stroke="#1a2f0a" stroke-width="1"/>
+  <path d="M 105 105 L 130 100 L 135 110 L 110 115 Z" fill="#3d6b1f" stroke="#1a2f0a" stroke-width="1"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="25" rx="20" ry="18" fill="#4a7c3c" stroke="#1a2f0a" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="92" cy="22" r="3" fill="#000000"/>
+  <circle cx="108" cy="22" r="3" fill="#000000"/>
+  <circle cx="93" cy="21" r="1" fill="#ffffff"/>
+  <circle cx="109" cy="21" r="1" fill="#ffffff"/>
+
+  <!-- Mouth -->
+  <path d="M 90 30 Q 100 32, 110 30" fill="none" stroke="#1a2f0a" stroke-width="1"/>
+
+  <!-- Front legs -->
+  <ellipse cx="65" cy="60" rx="15" ry="8" fill="#4a7c3c" stroke="#1a2f0a" stroke-width="2" transform="rotate(-30 65 60)"/>
+  <ellipse cx="135" cy="60" rx="15" ry="8" fill="#4a7c3c" stroke="#1a2f0a" stroke-width="2" transform="rotate(30 135 60)"/>
+
+  <!-- Back legs -->
+  <ellipse cx="70" cy="95" rx="15" ry="8" fill="#4a7c3c" stroke="#1a2f0a" stroke-width="2" transform="rotate(-20 70 95)"/>
+  <ellipse cx="130" cy="95" rx="15" ry="8" fill="#4a7c3c" stroke="#1a2f0a" stroke-width="2" transform="rotate(20 130 95)"/>
+
+  <!-- Tail -->
+  <path d="M 100 120 L 100 135 L 95 130" fill="#4a7c3c" stroke="#1a2f0a" stroke-width="2"/>
+</svg>

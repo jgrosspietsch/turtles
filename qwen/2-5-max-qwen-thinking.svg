@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shell -->
+  <ellipse cx="100" cy="100" rx="60" ry="40" fill="#4CAF50" />
+  
+  <!-- Head -->
+  <circle cx="160" cy="100" r="20" fill="#458B00" />
+  
+  <!-- Eyes -->
+  <circle cx="155" cy="95" r="3" fill="black" />
+  <circle cx="155" cy="105" r="3" fill="black" />
+  
+  <!-- Legs -->
+  <rect x="140" y="80" width="20" height="10" rx="5" fill="#458B00" />
+  <rect x="140" y="110" width="20" height="10" rx="5" fill="#458B00" />
+  <rect x="20" y="80" width="20" height="10" rx="5" fill="#458B00" />
+  <rect x="20" y="110" width="20" height="10" rx="5" fill="#458B00" />
+  
+  <!-- Tail -->
+  <rect x="0" y="95" width="20" height="10" rx="5" fill="#458B00" />
+</svg>

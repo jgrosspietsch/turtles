@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shell -->
+  <ellipse cx="100" cy="80" rx="60" ry="40" fill="#2E8B57" />
+  <!-- Shell pattern (optional) -->
+  <circle cx="80" cy="70" r="5" fill="#4682B4" />
+  <circle cx="120" cy="70" r="5" fill="#4682B4" />
+  <circle cx="95" cy="90" r="5" fill="#4682B4" />
+  <circle cx="105" cy="90" r="5" fill="#4682B4" />
+
+  <!-- Head -->
+  <circle cx="130" cy="70" r="10" fill="#8FBC8F" />
+  
+  <!-- Eye -->
+  <circle cx="135" cy="68" r="2" fill="white" />
+  <circle cx="135" cy="68" r="1" fill="black" />
+
+  <!-- Legs -->
+  <circle cx="70" cy="100" r="8" fill="#8FBC8F" />
+  <circle cx="130" cy="100" r="8" fill="#8FBC8F" />
+  <circle cx="60" cy="120" r="6" fill="#8FBC8F" />
+  <circle cx="140" cy="120" r="6" fill="#8FBC8F" />
+
+  <!-- Tail -->
+  <circle cx="100" cy="130" r="5" fill="#8FBC8F" />
+</svg>
